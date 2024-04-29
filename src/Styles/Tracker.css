@@ -1,0 +1,72 @@
+/* Sets change in colour when clicked */
+.prayer-rectangle.completed {
+    background-color: #90ee90;
+    margin: 25px;
+}
+
+/* Centers text */
+.prayer-tracker {
+    align-items: center;
+}
+
+/* Moves prayer titles more into the box */
+.prayer-rectangles-container {
+    margin-top: 150px; 
+}
+
+/* Sets each rectangle box for the prayertimes */
+.prayer-rectangle {
+    background-color: #333;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid white;
+    border-radius: 12px;
+    padding-right: 1000px;
+    height: 95px;
+    width: 300px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+/* Sets position and details for information border/box */
+.tracker-info {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 2px solid #333;
+    border-radius: 10px;
+    position: absolute;
+    top: 30%;
+    text-align: left;
+    right: 120px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Sets colour and font size for subtitle for information box */
+.tracker-info h3 {
+    color: #333;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+/* Sets colour and size for information box */
+.tracker-info p {
+    color: #555;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+/* Changes font size, colour and spacing for prayer names */
+.prayer-progress-heading {
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+

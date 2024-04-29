@@ -1,0 +1,33 @@
+.information-container {
+    margin: 20px;
+}
+
+.info-section {
+    margin-bottom: 30px;
+}
+
+/* Sets main title font size  */
+.info-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Sets border box details */
+.info-box {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+/* Changes subtitle font sizes */
+.info-subtitle {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+/* Changes font size */
+.info-text {
+    font-size: 20px;
+    margin-bottom: 5px;
+}

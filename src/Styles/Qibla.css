@@ -1,0 +1,47 @@
+/* Sets border box and details */
+.qibla-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-top: 140px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 25px;
+}
+
+/* Squishes in text, moves further from the bottom */
+.qibla-info, .qibla-finder {
+    margin-bottom: 20px;
+}
+
+/* Changes fontsize and colour of text */
+.qibla-info h3, .qibla-finder h3 {
+    color: #333;
+    font-size: 30px;
+}
+
+/* Changes colour and font size of text */
+.qibla-info p, .qibla-finder p {
+    color: #666;
+    font-size: 20px;
+}
+
+/* changes font size and numbers list */
+.qibla-info ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+/* changes font size and colour of link */
+.qibla-finder a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Underlines link */
+.qibla-finder a:hover {
+    text-decoration: underline;
+}

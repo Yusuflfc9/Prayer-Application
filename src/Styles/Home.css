@@ -1,0 +1,66 @@
+/* centers text */
+.home-container {
+    text-align: center;
+    margin-top: 300px;
+}
+
+/* Sets rectangle position and size */
+.rectangle {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid white;
+    border-radius: 12px;
+    padding-right: 1000px;
+    height: 100px;
+    width: 300px;
+}
+
+/* Sets font colour and size of prayer headings */
+.rectangle h3 {
+    color: #fff;
+    font-size: 25px;
+    margin: 0;
+}
+
+/* Sets size of date and time */
+.datetime {
+    margin-top: -150px;
+    font-size: 50px;
+}
+
+/* Sets margin for date and time */
+.datetime p {
+    margin: 10px 0;
+}
+
+/* Sets border box details for information box */
+.textbox {
+    width: 300px;
+    margin-left: auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 2px solid #333;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 110px;
+}
+
+/* Sets colour and size of subtitle in information box */
+.textbox h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Sets font size and colour for information box */
+.textbox p {
+    color: #555;
+    font-size: 20px;
+    line-height: 1.5;
+}
